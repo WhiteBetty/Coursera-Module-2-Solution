@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+}
+
+head {
+
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+#s1 {
+ 
+}
+
+#s2 {
+
+}
+
+
+#s3 {
+
+}
+
+.row {
+ 
+}
+
+section {
+  border: 1px solid black;
+  background-color: grey;
+  width: 30%;
+  height: 150px;
+  float: left;
+ 
+  
+}
+
+
+
+p {
+	font-family: Helvetica;
+  color: yellow;
+
+}
