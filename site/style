@@ -99,3 +99,40 @@ p {
   }
   
  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    border: 1px solid red;
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+    width: 50%%;
+  }
+  .col-md-3 {
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3 {
+    float: left;
+    border: 1px solid pink;
+    
+  }.col-sm-1 {
+    width: 100%;
+  }
+  .col-sm-2 {
+    width: 100%;
+  }
+  .col-sm-3 {
+    width: 100%;
+  }
+  
+ }
