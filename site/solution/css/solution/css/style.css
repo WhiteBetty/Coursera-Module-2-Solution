@@ -1,0 +1,126 @@
+* {
+	box-sizing: border-box;
+}
+
+head {
+ 
+}
+
+#s1 {
+ position: relative;
+}
+
+#h2 #h3 #h4 {
+	position: absolute;
+	top: -10px;
+	right: 0px;
+}
+
+section {
+  border: 1px solid black;
+  background-color: grey;
+  width: 30%;
+  height: 150px;
+  float: left;
+ margin-right: 10px;
+ margin-bottom: 15px;
+ font-family: Helvetica;
+	font-size: 16px;
+    color: black;
+    padding: 0px 10px 0px;
+ overflow: hidden;
+}
+
+h1 {
+	text-align: center;
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+h2 {
+	background: #fc0; /* Цвет фона */
+     /* Ширина блока */
+    padding: 10px; /* Поля */
+    margin-top: 0px; 
+    margin-left: 30px;/* Отступ сверху */
+    border: 2px solid #000; /* Параметры рамки */
+    -moz-box-sizing: border-box; /* Для Firefox */  
+    box-sizing: border-box; /* Ширина блока с полями */
+        font-size: 20px;
+}
+
+
+
+.BgPink {
+	background: pink;
+}
+
+.BgMaroon {
+	background: maroon;
+}
+
+.BgYellow {
+	background: yellow;
+}
+
+
+
+
+
+p {
+	
+    
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2,  {
+    float: left;
+    border: 1px solid green;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 33.33%;
+  }
+  
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    border: 1px solid black;
+  }
+  .col-md-1 {
+    width: 50%;
+  }
+  .col-md-2 {
+  	clear: both;
+  	width: 50%;
+  }
+  .col-md-3 {
+  	clear: both;
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 767px) {
+  .col-sm-1, .col-sm-2, .col-sm-3 {
+    float: left;
+    border: 1px solid black;
+    
+  }.col-sm-1 {
+    width: 100%;
+  }
+  .col-sm-2 {
+    width: 100%;
+  }
+  .col-sm-3 {
+    width: 100%;
+  }
+  
+ }
